@@ -1,0 +1,34 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+.banner-container {
+    display: flex;
+    width: 300%;
+    animation: bannermove 15s linear infinite;
+    border-bottom: 1px solid black;
+}
+
+.moving-banner {
+    display: flex;
+    height: 5vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner-svg {
+    display: block;
+    padding: 0px 8px;
+    height: 100%;
+}
+
+
+@keyframes bannermove {
+    0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+}
