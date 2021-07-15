@@ -1,12 +1,15 @@
 body {
     margin: 0px;
+}
+
+header {
     overflow: hidden;
 }
 
 .banner-container {
     display: flex;
     width: 300%;
-    animation: bannermove 15s linear infinite;
+    animation: bannermove 20s linear infinite;
     border-bottom: 1px solid black;
 }
 
@@ -14,15 +17,24 @@ body {
     display: flex;
     height: 5vh;
     width: 100%;
-    overflow: hidden;
 }
 
 .banner-svg {
     display: block;
-    padding: 0px 8px;
     height: 100%;
 }
 
+.home-container {
+    margin-left: 16px;
+}
+
+.home-header {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title {
+    width: 80px;
+}
 
 @keyframes bannermove {
     0% {
@@ -31,4 +43,16 @@ body {
       100% {
         transform: translateX(-50%);
       }
+}
+
+@media only screen and (max-width: 1200px){
+    .last, .mid {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .last, .mid, .begin {
+        display: none;
+    }
 }
