@@ -1,0 +1,16 @@
+{
+  "name": "projetpigeons",
+  "private": true,
+  "scripts": {
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": "gridsome build"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0",
+    "sass": "^1.38.0"
+  },
+  "devDependencies": {
+    "sass-loader": "^10.2.0"
+  }
+}
