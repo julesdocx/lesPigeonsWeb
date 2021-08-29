@@ -16,9 +16,9 @@
         <g-link class="homepage_header_nav--nav__link" to="/manifest"
           >Manifest</g-link
         >
-        <g-link class="homepage_header_nav--nav__link" to="/nieuws"
+        <!-- <g-link class="homepage_header_nav--nav__link" to="/nieuws"
           >Nieuws</g-link
-        >
+        > -->
       </nav>
     </header>
   </div>

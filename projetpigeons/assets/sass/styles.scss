@@ -1,5 +1,8 @@
 @import "mixins.scss";
-
+@import url("https://use.typekit.net/piy6ljd.css");
+html,body{
+  height: 100%;
+}
 .homepage {
   @include center;
   width: 100%;
