@@ -2,7 +2,7 @@
   "name": "projetpigeons",
   "private": true,
   "scripts": {
-    "develop": "gridsome develop",
+    "dev": "gridsome develop",
     "explore": "gridsome explore",
     "build": "gridsome build"
   },
