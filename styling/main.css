@@ -6,6 +6,10 @@ header {
     overflow: hidden;
 }
 
+.container {
+    padding: 8px;
+}
+
 .banner-container {
     display: flex;
     width: 300%;
@@ -15,25 +19,30 @@ header {
 
 .moving-banner {
     display: flex;
-    height: 5vh;
     width: 100%;
 }
 
 .banner-svg {
     display: block;
     height: 100%;
+    height: 1.6em;
+    font-size: 1.6em;
+    padding: 8px 0px;
+    margin: 0px;
+    overflow: hidden;
+    font-family: tuppence, serif;
+
 }
 
 .home-container {
-    margin-left: 16px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.home-header {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#title {
-    width: 80px;
+.home-header, .home-image {
+    font-family: tuppence, serif;
+    border-bottom: solid 1px black;
 }
 
 .credits-container {
@@ -43,6 +52,32 @@ header {
     font-size:x-small;
     font-style: italic;
 }
+
+p {
+    font-family: roboto;
+}
+
+.menu {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 16px !important;
+}
+
+.main-button {
+    padding: 6px 16px;
+    background-color: black;
+    color: white !important;
+    border: solid 1px black;
+    border-radius: 8px;
+}
+
+.active {
+    background-color: white;
+    
+}
+
 
 @keyframes bannermove {
     0% {
@@ -59,8 +94,14 @@ header {
     }
 }
 
-@media only screen and (max-width: 600px){
-    .last, .mid, .begin {
-        display: none;
+@media only screen and (min-width: 300px){
+    .home-image {
+        width:200px;
     }
+}
+
+a, a:hover, a:visited, a:link {
+    text-decoration: none;
+    font-family: tuppence, serif;
+    color:white;
 }
