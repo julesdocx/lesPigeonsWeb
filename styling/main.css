@@ -22,16 +22,32 @@ header {
     width: 100%;
 }
 
+.logo {
+    width: 1em;
+    display:inline;
+}
+ h1 {
+     display: grid;
+     grid-template-columns: 170px 1fr;
+     justify-content: center;
+ }
+
+ b {
+    font-family: hwt-arabesque, sans-serif;
+ }
+
+
 .banner-svg {
     display: block;
     height: 100%;
-    height: 1.6em;
-    font-size: 1.6em;
+    height: 1em;
+    font-size: 2em;
     padding: 8px 0px;
     margin: 0px;
     overflow: hidden;
-    font-family: tuppence, serif;
-
+    font-family: hwt-arabesque, sans-serif;
+    color: #d2e6f4;
+    -webkit-text-stroke: 1px #000000;
 }
 
 .home-container {
@@ -42,7 +58,8 @@ header {
 }
 
 .home-header, .home-image {
-    font-family: tuppence, serif;
+    font-family: hwt-arabesque, sans-serif;
+    letter-spacing: 1px;
     overflow-y: scroll;
     display: flex;
     align-items: flex-start;
@@ -58,13 +75,20 @@ header {
 }
 
 p {
-    font-family: roboto;
+    font-family: hind, sans-serif;
 }
 
 .content-image {
     max-width: 100%;
     max-height: 100vh;
     margin: auto;
+    border:solid 1px #d2e6f4;
+    border-radius: 4px;
+}
+
+figcaption {
+    font-family: hind, sans-serif;
+    font-size: x-smallF;
 }
 
 .image-container {
@@ -72,19 +96,22 @@ p {
     height: 100%;
 }
 
-.menu {
-    bottom: 0px;
-    height: 2.1em;
+.menu-buttons {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    padding: 8px !important;
+}
+
+.menu {
+    bottom: 0px;
+    height: 2.1em;
     border-bottom: solid 1px black;
+    padding: 8px !important;
 }
 
 .main-button {
     padding: 6px 8px;
-    background-color: black;
+    background-color: #d2e6f4;
     color: white !important;
     border: solid 1px black;
     border-radius: 6px;
@@ -105,9 +132,15 @@ p {
       }
 }
 
-@media only screen and (max-width: 1200px){
-    .last, .mid {
-        display: none;
+@media only screen and (min-width: 900px){
+    .home-header, .menu {
+        display: grid;
+        grid-template-columns: 20% auto 20%;
+    }
+    .home-text {
+        display: grid;
+        grid-gap: 6px 6px;
+        grid-template: 1fr 1fr / 1fr 1fr;
     }
 }
 
@@ -115,10 +148,12 @@ p {
     .home-image {
         width:200px;
     }
+
 }
 
 a, a:hover, a:visited, a:link {
     text-decoration: none;
-    font-family: tuppence, serif;
-    color:white;
+    font-family: hwt-arabesque, sans-serif;
+    letter-spacing: 2px;
+    color:black;
 }
