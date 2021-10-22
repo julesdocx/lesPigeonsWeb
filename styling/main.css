@@ -95,7 +95,7 @@ h2 {
 }
 
 p {
-    font-family: garamond, sans-serif;
+    font-family: garamond-premier-pro, serif;
 }
 
 .content-image {
@@ -189,8 +189,7 @@ figcaption {
 
 a, a:visited, a:link {
     text-decoration: none;
-    font-family: garamond, sans-serif;
-    font-weight: 500;
+    font-family: garamond-premier-pro, serif; 
     letter-spacing: 2px;
     color:white;
 }
