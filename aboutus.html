@@ -59,14 +59,15 @@
                 <div class="menu container">
                     <div></div>
                     <div class="menu-buttons">
-                        <button class="card-button main-button active"><a style="color:black !important;"
-                                href="#">NL</a></button>
-                        <button class="card-button main-button"><a href="#fr">FR</a></button>
-                        <button class="card-button main-button"><a href="#en">EN</a></button>
+                        <button id="en-button" class="card-button main-button active"
+                            onclick="openLanguage('en')" >EN</button>
+                        <button id="fr-button"  class="card-button main-button" onclick="openLanguage('fr')" >FR </button>
+                        <button id="nl-button" class="card-button main-button" onclick="openLanguage('nl')">NL</button>
                     </div>
                     <div></div>
                 </div>
-                <div class="content-card" id="nl">
+                <div>
+                <div class="content-card language" id="nl">
                     <p>Projet Pigeons is een artistiek activistisch collectief dat momenteel bestaat uit zo’n 60 jonge
                         talenten. We vormen een familiaal netwerk van niet alleen verschillende capaciteiten, maar ook
                         van verschillende politieke meningen en doelen. Een collage als het ware.
@@ -82,7 +83,7 @@
                     <i>We willen de kracht en visie van de jongeren niet alleen bewijzen naar de buitenwereld toe, maar
                         ook naar onszelf!</i>
                 </div>
-                <div class="menu container">
+                <!-- <div class="menu container">
                     <div></div>
                     <div class="menu-buttons">
                         <button class="card-button main-button active"><a style="color:black !important;"
@@ -91,8 +92,8 @@
                         <button class="card-button main-button"><a href="#en">EN</a></button>
                     </div>
                     <div></div>
-                </div>
-                <div class="content-card" id="fr">
+                </div> -->
+                <div class="content-card language" id="fr">
                     <p>Projet Pigeons est un collectif artistique activiste qui compte actuellement 60 jeunes talents.
                     </p>
                     <p>Notre réseau relie des personnes ayant non seulement des compétences différentes, mais aussi des origines et des objectifs différents.</p>
@@ -104,7 +105,7 @@
                     </p>
                     <p><i>Nous voulons prouver la puissance et la vision de la jeunesse, non seulement au monde extérieur, mais aussi à nous-mêmes !</i></p>
                 </div>
-                <div class="menu container">
+                <!-- <div class="menu container">
                     <div></div>
                     <div class="menu-buttons">
                         <button class="card-button main-button active"><a style="color:black !important;"
@@ -113,8 +114,8 @@
                         <button class="card-button main-button"><a href="#nl">NL</a></button>
                     </div>
                     <div></div>
-                </div>
-                <div class="content-card" id="en">
+                </div> -->
+                <div class="content-card language" id="en">
 
                     <p>Projet Pigeons is an artistic activistic collective that currently consists out of 60 young talents.
                     </p>
@@ -138,3 +139,5 @@
 </body>
 
 </html>
+
+<script src="main.js"></script>

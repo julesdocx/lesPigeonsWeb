@@ -95,7 +95,7 @@ h2 {
 }
 
 p {
-    font-family: garamond-premier-pro, serif;
+    font-family: futura-pt, sans-serif;
 }
 
 .content-image {
@@ -189,7 +189,7 @@ figcaption {
 
 a, a:visited, a:link, button {
     text-decoration: none;
-    font-family: garamond-premier-pro, serif; 
+    font-family: futura-pt, sans-serif;
     letter-spacing: 2px;
     color:white;
 }
