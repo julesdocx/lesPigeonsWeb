@@ -144,7 +144,7 @@ figcaption {
 
 .active {
     background-color: white;
-    
+    color: black !important;
 }
 
 
@@ -187,7 +187,7 @@ figcaption {
     }
 }
 
-a, a:visited, a:link {
+a, a:visited, a:link, button {
     text-decoration: none;
     font-family: garamond-premier-pro, serif; 
     letter-spacing: 2px;

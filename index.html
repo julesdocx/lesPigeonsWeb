@@ -66,150 +66,149 @@
                     <div class="menu container">
                         <div></div>
                         <div class="menu-buttons">
-                            <button class="card-button main-button active"><a style="color:black !important;"
-                                    href="#">EN</a></button>
-                            <button class="card-button main-button"><a href="#fr">FR</a></button>
-                            <button class="card-button main-button"><a href="#nl">NL</a></button>
+                            <button id="en-button" class="card-button main-button active"
+                                onclick="openLanguage('en')" >EN</button>
+                            <button id="fr-button"  class="card-button main-button" onclick="openLanguage('fr')" >FR </button>
+                            <button id="nl-button" class="card-button main-button" onclick="openLanguage('nl')">NL</button>
                         </div>
                         <div></div>
                     </div>
-                    <p style="display: grid; justify-content: center;" id="en">
-                        22 to 24 October 2021, the 25 young visual artists among us are organising their very first exhibition at the Novanois in Schaarbeek, BXL.
-                    </p>
-                    <p>
-                        We are delighted to be able to organise this "tour d'artistes" in the beautiful Novanois, with the cherry on the cake that we have also been able to integrate young musicians and bands into this exhibition.
-                    </p>
-                    <p>
-                        With this philosophy, we offer returning visitors a unique opportunity to follow the personal and artistic growth of each young artist at close quarters.
-                    </p>
-                    <p>
-                        And who knows, maybe this day will also bring you to a moment of self-reflection:
-                    </p>
-                    <p>
-                        <b>Why am I, "the pigeon"?
-                        </b>
-                    </p>
-                    <hr>
-                    <br>
-                    <h2>
-                        Projet Pigeons x Novanoïs
-                    </h2>
-                    <p>
-                        As pigeons, we were in dire need of a nest, a place where ideas could hatch and take form. 
-                    </p>
-                    <p>
-                        During our search for a permanent home, Muriël Gyselbrecht, director of the Novanoïs, offered us a temporary shelter.
-                    </p>
-                    <p>
-                        The pigeons offered to help her wherever help was needed and so it happened that naturally old traditions entered the modern way of life again: collaborations based on exchange and trust. 
-                    </p>
-                    <p>
-                        The NovanoÏs is a hidden gem in Schaerbeek, a very charming location that rents out its music studios and dance hall.  
-                    </p>
-                    <p>
-                        But where the pigeons prefer to brood, is high up in the old cinema hall...
-                    </p>
+                    <div>
+                        <div id="en" class="language">
+                        <p style="display: grid; justify-content: center;">
+                            22 to 24 October 2021, the 25 young visual artists among us are organising their very first exhibition at the Novanois in Schaarbeek, BXL.
+                        </p>
+                        <p>
+                            We are delighted to be able to organise this "tour d'artistes" in the beautiful Novanois, with the cherry on the cake that we have also been able to integrate young musicians and bands into this exhibition.
+                        </p>
+                        <p>
+                            With this philosophy, we offer returning visitors a unique opportunity to follow the personal and artistic growth of each young artist at close quarters.
+                        </p>
+                        <p>
+                            And who knows, maybe this day will also bring you to a moment of self-reflection:
+                        </p>
+                        <p>
+                            <b>Why am I, "the pigeon"?
+                            </b>
+                        </p>
+                        <hr>
+                        <br>
+                        <h2>
+                            Projet Pigeons x Novanoïs
+                        </h2>
+                        <p>
+                            As pigeons, we were in dire need of a nest, a place where ideas could hatch and take form. 
+                        </p>
+                        <p>
+                            During our search for a permanent home, Muriël Gyselbrecht, director of the Novanoïs, offered us a temporary shelter.
+                        </p>
+                        <p>
+                            The pigeons offered to help her wherever help was needed and so it happened that naturally old traditions entered the modern way of life again: collaborations based on exchange and trust. 
+                        </p>
+                        <p>
+                            The NovanoÏs is a hidden gem in Schaerbeek, a very charming location that rents out its music studios and dance hall.  
+                        </p>
+                        <p>
+                            But where the pigeons prefer to brood, is high up in the old cinema hall...
+                        </p>
+                        </div>
+
+                        <div id="fr" class="language" style="display:none">
+                        <p style="display: grid; justify-content: center;" >
+                            Du 22 au 24 octobre 2021, les 25 jeunes plasticiens parmi nous organisent leur toute première exposition au Novanois à Schaerbeek.
+                        </p>
+                        <p>
+                            Nous sommes ravis de pouvoir organiser ce "tour d'artistes" dans le magnifique Novanois, avec la cerise sur le gâteau que nous avons également pu intégrer de jeunes musiciens et groupes dans cette exposition.
+                        </p>
+                        <p>
+                            Nous embrassons la beauté du processus d'apprentissage, le fil que nous voulons poursuivre jusqu'aux prochaines expositions. 
+                        </p>
+                        <p>
+                            Grâce à cette philosophie, nous offrons aux visiteurs de passage une occasion unique de suivre de près la croissance personnelle et artistique de chaque jeune artiste.
+                        </p>
+                        <p>Et qui sait, peut-être que cette journée vous amènera aussi à un moment de réflexion sur vous-même : </p>
+                        <p>
+                            <b>Pourquoi suis-je "le pigeon" ?
+                            </b>
+                        </p>
+                        <hr>
+                        <br>
+                        <h2>
+                            Projet Pigeons x Novanoïs
+                        </h2>
+                        <p>
+                            Comme les pigeons, nous avions grand besoin d'un nid, d'un endroit où les idées pouvaient éclore et prendre forme. 
+                        </p>
+                        <p>
+                            Pendant notre recherche d'une maison permanente, Muriël Gyselbrecht, directeur des Novanoïs, nous a offert un abri temporaire.
+                        </p>
+                        <p>
+                            Les pigeons ont proposé de l'aider partout où cela était nécessaire et c'est ainsi que de vieilles traditions naturelles sont entrées à nouveau dans le mode de vie moderne : des collaborations basées sur l'échange et la confiance. 
+                        </p>
+                        <p>
+                            Les pigeons ont proposé de l'aider partout où cela était nécessaire et c'est ainsi que de vieilles traditions naturelles sont entrées à nouveau dans le mode de vie moderne : des collaborations basées sur l'échange et la confiance. 
+                        </p>
+                        <p>
+                            Le NovanoÏs est un joyau caché à Schaerbeek, un endroit très charmant qui loue ses studios de musique et sa salle de danse.  
+                        </p>
+                        <p>
+                            Mais là où les pigeons préfèrent couver, c'est en haut, dans l'ancienne salle de cinéma...
+                        </p>
+                    </div>  
+                        <!-- <div class="menu container">
+                            <div></div>
+                            <div class="menu-buttons">
+                                <button class="card-button main-button active"><a style="color:black !important;"
+                                        href="#">NL</a></button>
+                                <button class="card-button main-button"><a href="#fr">FR</a></button>
+                                <button class="card-button main-button"><a href="#en">EN</a></button>
+                            </div>
+                            <div></div>
+                        </div> -->
+                        <div id="nl" class="language" style="display:none"> 
+                        <p style="display: grid; justify-content: center;" >
+                            22 tot 24 oktober 2021 organiseren de 25 jong beeldende kunstenaars onder ons hun allereerste expositie in de Novanois te schaarbeek. 
+                        </p>
+                        <p>
+                            We zijn ontzettend verheugd deze “tour d’artistes” te mogen organiseren in de prachtige Novanois, met als kers op de taart dat we ook jonge muzikanten en bands hebben kunnen integreren in deze tentoonstelling.
+                        </p>
+                        <p>
+                            We omarmen de schoonheid van het leerproces, de rode draad die we willen doortrekken naar de volgende exposities toe. 
+                        </p>
+                        <p>
+                            Met deze filosofie bieden we terugkerende bezoekers de unieke kans  om de persoonlijk en artistieke groei, van elke jonge kunstenaar, van dichtbij mee te volgen.
+                        </p>
+                        <p>En wie weet brengt deze dag u ook tot een moment van zelfreflectie:  </p>
+                        <p>
+                            <b>
+                                Waarom ben ik, “de pigeon”?
+                            </b>
+                        </p>
+                        <hr>
+                        <br>
+                        <h2>
+                            Projet Pigeons x Novanoïs
+                        </h2>
+                        <p>
+                            Tijdens onze zoektocht naar een permanente thuis bood Muriël Gyselbrecht, uitbaatster van de Novanoïs, ons afgelopen lente een tijdelijk warm nestje aan.
+                        </p>
+                        <p>
+                            Uit dankbaarheid stelden de pigeons hun werkkracht ter aanbieding en bliezen we zo terug leven in samenwerkingen gebaseerd op ruilhandel en vertrouwen.
+                        </p>
+                        <p>
+                            De NovanoÏs is een verborgen schat verstopt in Schaarbeek, een uiterst charmante locatie die haar muziekstudio's en danszaal verhuurt. 
+                        </p>
+                        <p>
+                            Maar waar de duiven het allerliefste broeden, is hoog in de oude cinemazaal... 
+                        </p>
+                    </div>
+                    </div>
                     <div>
                         <img class="content-image"
                         src="./projetpigeons/assets/images/242303044_1056867525122099_6500220069301763008_n.jpg"
                         alt="projetpigeons poster">
                         <figcaption>@Wout De Jonghe</figcaption>
                     </div>
-                    <div class="menu container">
-                        <div></div>
-                        <div class="menu-buttons">
-                            <button class="card-button main-button active"><a style="color:black !important;"
-                                    href="#">FR</a></button>
-                            <button class="card-button main-button"><a href="#nl">NL</a></button>
-                            <button class="card-button main-button"><a href="#en">EN</a></button>
-                        </div>
-                        <div></div>
-                    </div>
-                    <p style="display: grid; justify-content: center;" id="fr">
-                        Du 22 au 24 octobre 2021, les 25 jeunes plasticiens parmi nous organisent leur toute première exposition au Novanois à Schaerbeek.
-                    </p>
-                    <p>
-                        Nous sommes ravis de pouvoir organiser ce "tour d'artistes" dans le magnifique Novanois, avec la cerise sur le gâteau que nous avons également pu intégrer de jeunes musiciens et groupes dans cette exposition.
-                    </p>
-                    <p>
-                        Nous embrassons la beauté du processus d'apprentissage, le fil que nous voulons poursuivre jusqu'aux prochaines expositions. 
-                    </p>
-                    <p>
-                        Grâce à cette philosophie, nous offrons aux visiteurs de passage une occasion unique de suivre de près la croissance personnelle et artistique de chaque jeune artiste.
-                    </p>
-                    <p>Et qui sait, peut-être que cette journée vous amènera aussi à un moment de réflexion sur vous-même : </p>
-                    <p>
-                        <b>Pourquoi suis-je "le pigeon" ?
-                        </b>
-                    </p>
-                    <hr>
-                    <br>
-                    <h2>
-                        Projet Pigeons x Novanoïs
-                    </h2>
-                    <p>
-                        Comme les pigeons, nous avions grand besoin d'un nid, d'un endroit où les idées pouvaient éclore et prendre forme. 
-                    </p>
-                    <p>
-                        Pendant notre recherche d'une maison permanente, Muriël Gyselbrecht, directeur des Novanoïs, nous a offert un abri temporaire.
-                    </p>
-                    <p>
-                        Les pigeons ont proposé de l'aider partout où cela était nécessaire et c'est ainsi que de vieilles traditions naturelles sont entrées à nouveau dans le mode de vie moderne : des collaborations basées sur l'échange et la confiance. 
-                    </p>
-                    <p>
-                        Les pigeons ont proposé de l'aider partout où cela était nécessaire et c'est ainsi que de vieilles traditions naturelles sont entrées à nouveau dans le mode de vie moderne : des collaborations basées sur l'échange et la confiance. 
-                    </p>
-                    <p>
-                        Le NovanoÏs est un joyau caché à Schaerbeek, un endroit très charmant qui loue ses studios de musique et sa salle de danse.  
-                    </p>
-                    <p>
-                        Mais là où les pigeons préfèrent couver, c'est en haut, dans l'ancienne salle de cinéma...
-                    </p>
-                    <div class="menu container">
-                        <div></div>
-                        <div class="menu-buttons">
-                            <button class="card-button main-button active"><a style="color:black !important;"
-                                    href="#">NL</a></button>
-                            <button class="card-button main-button"><a href="#fr">FR</a></button>
-                            <button class="card-button main-button"><a href="#en">EN</a></button>
-                        </div>
-                        <div></div>
-                    </div>
-                    <p style="display: grid; justify-content: center;" id="nl">
-                        22 tot 24 oktober 2021 organiseren de 25 jong beeldende kunstenaars onder ons hun allereerste expositie in de Novanois te schaarbeek. 
-                    </p>
-                    <p>
-                        We zijn ontzettend verheugd deze “tour d’artistes” te mogen organiseren in de prachtige Novanois, met als kers op de taart dat we ook jonge muzikanten en bands hebben kunnen integreren in deze tentoonstelling.
-                    </p>
-                    <p>
-                        We omarmen de schoonheid van het leerproces, de rode draad die we willen doortrekken naar de volgende exposities toe. 
-                    </p>
-                    <p>
-                        Met deze filosofie bieden we terugkerende bezoekers de unieke kans  om de persoonlijk en artistieke groei, van elke jonge kunstenaar, van dichtbij mee te volgen.
-                    </p>
-                    <p>En wie weet brengt deze dag u ook tot een moment van zelfreflectie:  </p>
-                    <p>
-                        <b>
-                            Waarom ben ik, “de pigeon”?
-                        </b>
-                    </p>
-                    <hr>
-                    <br>
-                    <h2>
-                        Projet Pigeons x Novanoïs
-                    </h2>
-                    <p>
-                        Tijdens onze zoektocht naar een permanente thuis bood Muriël Gyselbrecht, uitbaatster van de Novanoïs, ons afgelopen lente een tijdelijk warm nestje aan.
-                    </p>
-                    <p>
-                        Uit dankbaarheid stelden de pigeons hun werkkracht ter aanbieding en bliezen we zo terug leven in samenwerkingen gebaseerd op ruilhandel en vertrouwen.
-                    </p>
-                    <p>
-                        De NovanoÏs is een verborgen schat verstopt in Schaarbeek, een uiterst charmante locatie die haar muziekstudio's en danszaal verhuurt. 
-                    </p>
-                    <p>
-                        Maar waar de duiven het allerliefste broeden, is hoog in de oude cinemazaal... 
-                    </p>
                     </div>           
             </div>
 
@@ -222,3 +221,6 @@
 </body>
 
 </html>
+
+<script src="main.js"></script>
+
