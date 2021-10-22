@@ -180,7 +180,7 @@ figcaption {
 
 @media only screen and (max-width: 430px){
     h1 {
-        font-size: 3em !important;
+        font-size: 4em !important;
     }
     .main-buttons {
         display: none;
